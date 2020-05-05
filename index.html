@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index_style.css">
+</head>
+<body class="bg-dark">
+
+
+    <div class="container mt-5">
+        <div id="border" class="w-25 row m-auto bg-light py-5 ">
+            <input id="input" class="form-control m-2 py-3" type="text">
+            <div class=" col-md-12 d-flex justify-content-center">
+                <button onclick="addnumber(`(`)" class="w-25 btn btn-info m-2" >(</button>
+                <button onclick="addnumber(`)`)" class="w-25 btn btn-info m-2" >)</button>
+                <button onclick="addnumber(`%`)" class="w-25 btn btn-info m-2" >%</button>
+                <button onclick="addnumber(`/`)" class="w-25 btn btn-info m-2" >/</button>
+            </div>
+            <div class=" col-md-12 d-flex justify-content-center">
+                <button onclick="addnumber(7)" class="w-25 btn btn-info m-2" >7</button>
+                <button onclick="addnumber(8)" class="w-25 btn btn-info m-2" >8</button>
+                <button onclick="addnumber(9)" class="w-25 btn btn-info m-2" >9</button>
+                <button onclick="addnumber(`*`)" class="w-25 btn btn-info m-2" >*</button>
+            </div>
+            <div class=" col-md-12 d-flex justify-content-center">
+                <button onclick="addnumber(4)" class="w-25 btn btn-info m-2" >4</button>
+                <button onclick="addnumber(5)" class="w-25 btn btn-info m-2" >5</button>
+                <button onclick="addnumber(6)" class="w-25 btn btn-info m-2" >6</button>
+                <button onclick="addnumber(`-`)" class="w-25 btn btn-info m-2" >-</button>
+            </div>
+            <div class=" col-md-12 d-flex justify-content-center">
+                <button onclick="addnumber(1)" class="w-25 btn btn-info m-2" >1</button>
+                <button onclick="addnumber(2)" class="w-25 btn btn-info m-2" >2</button>
+                <button onclick="addnumber(3)" class="w-25 btn btn-info m-2" >3</button>
+                <button onclick="addnumber(`+`)" class="w-25 btn btn-info m-2" >+</button>
+            </div>
+            <div class=" col-md-12 d-flex justify-content-center">
+                <button onclick="addnumber(0)" class="w-25 btn btn-info m-2" >0</button>
+                <button onclick="addnumber(`.`)" class="w-25 btn btn-info m-2" >.</button>
+                <button onclick="del()" class="w-25 btn btn-warning m-2" >Del</button>
+                <button onclick="equal()" class="w-25 btn btn-danger m-2" >=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
